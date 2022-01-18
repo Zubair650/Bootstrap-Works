@@ -1,0 +1,665 @@
+<html>
+
+<!--Bootstrap-5-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+<!--Bootstrap-4-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" 
+integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<div style="margin-top:70px;"></div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" 
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+
+
+<div class="container">
+  <!-- <div class="d-inline-block bg-info sticky-top"><h1 style="text-align: center; color: white;">Sticky Top</h1></div>
+  --> 
+  <h1 class="h2 text-danger">My First Bootstrap Page</h1>
+  <h1 class="h3 bg-dark text-white" style="padding:1.2%">My First Bootstrap Page</h1>
+  <h1 class="font-size: 45% bg-secondary text-white" style="padding:1.5%">My First Bootstrap Page</h1>
+  <hr>
+  <p class="display-5">
+  Hello World!
+  </p>
+  
+  <b>Hello World!</b>
+  <p><i>Hello World!</i></p>
+  <p class="text-lowercase text-info">Hello World!</p>
+  <p class="text-uppercase text-danger">Hello World!</p>
+  <p class="text-capitalize">Hello World!</p>
+  
+  <hr>
+  
+  <ul class="list-unstyled">
+  <li>First</li>
+  <li>Second</li>
+  <li>Third</li>
+  </ul>
+  
+  <hr>
+  
+  <ul class="list-inline">
+  <li class="list-inline-item">First</li>
+  <li class="list-inline-item">Second</li>
+  <li class="list-inline-item">Third</li>
+  </ul>
+  
+  <hr>
+  
+  <p class = "text-justify">Bootstrap's global default font-size is 14px, with a line-height of 1.428.
+  This is applied to the element and all paragraphs.
+  In addition, all elements have a bottom margin 
+  that equals half their computed line-height (10px by default).
+  </p>
+  <hr>
+	<p class="text-sm-right"> Small Text</p>
+	<p class="text-md-right"> Medium Text</p>
+	<p class="text-lg-right"> Large Text</p>
+  
+  <hr>
+  <h1 class="d-inline bg-success"> Hi </h1>
+  &nbsp;
+  <h1 class="d-inline bg-success"> everyone!</h1>
+  <br>
+  <br>
+  <div class="d-inline-block bg-success text-white"> <h1 style="padding:1%">Hi </h1> </div>
+  <div class="d-inline-block bg-primary text-white"> <h1 style="padding:1%">Everyone </h1> </div>
+  
+  <hr>
+  
+  <div class="text-center p-4" style="height: 180px; width: 600px; border:3px solid red">  
+  <div class="bg-success d-inline-block w-25 mb-2 text-white"> Small Float </div><!-- mb = Margin Bottom -->
+  <br>
+  <div class="bg-primary d-inline-block w-25 mb-2 text-white"> Medium Float </div>
+  <br>
+  <div class="bg-success d-inline-block w-25 mb-2 text-white"> Large Float </div>
+  <br>
+  <div class="bg-primary d-inline-block w-25 mb-2 text-white"> XL Float </div>
+  
+  <div class="d-inline-block bg-primary fixed-top"><h1 style="text-align: center; color: white;">Fixed Top</h1></div>
+  
+  <div class="d-inline-block bg-success fixed-bottom"><h3 style="text-align: center; color: white; padding:0.7%">Fixed Bottom</h3></div>
+  </div>
+  
+  <hr>
+  
+  <div ><!-- class="bg-info clearfix" -->
+  <button class="btn btn-outline-danger"> Button 1 </button>
+  <button class="btn btn-outline-dark btn-toggle" data-bs-toggle="button"> Button 2 </button>
+  <button class="btn btn-outline-danger btn-lg"><i class="fas fa-bolt"></i> Danger </button> <br><br>
+  </div>
+  <div class="btn-group"><!-- dropdown -->
+  <button class="btn btn-outline-dark"><i class="fab fa-canadian-maple-leaf"></i> Welcome to Canada </button>
+  <button type="button" class="btn btn-outline-dark dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown">
+  <span class="sr-only"> Toggle Dropdown </span> </button>
+
+  <div class="dropdown-menu bg-light">
+  <a class="dropdown-item" href="#">Torronto</a>
+  <a class="dropdown-item" href="#">British Columbia</a>
+  <a class="dropdown-item" href="#">Ontario</a>
+  <a class="dropdown-item" href="#">Alberta</a>
+  <a class="dropdown-item" href="#">Calgury</a>
+  <a class="dropdown-item" href="#">Montreal</a>
+  </div>
+  </div>
+  <br>
+  <br>
+  
+  <div class="btn-group-vertical">
+  <button class="btn btn-outline-primary"> January </button>
+  <button class="btn btn-outline-primary"> February </button>
+  <button class="btn btn-outline-primary"> March </button>
+  </div>
+  <div class="btn-group-vertical">
+  <button class="btn btn-outline-success"> April </button>
+  <button class="btn btn-outline-success"> May </button>
+  <button class="btn btn-outline-success"> June </button>
+  </div>
+  <div class="btn-group-vertical">
+  <button class="btn btn-outline-danger"> July </button>
+  <button class="btn btn-outline-danger"> August </button>
+  <button class="btn btn-outline-danger"> September </button>
+  </div>
+  <div class="btn-group-vertical">
+  <button class="btn btn-outline-dark"> October </button>
+  <button class="btn btn-outline-dark"> November </button>
+  <button class="btn btn-outline-dark"> December </button>
+  </div>
+  
+  <hr>
+  
+  <div style="height: 320px; outline:3px solid black"> 
+  <div class="row-lg-5 bg-dark d-flex justify-content-center mb-2 p-3 text-white" >Row 1</div> <br>
+  <div class="row-lg-5 bg-danger d-flex justify-content-center mb-2 p-3 text-white">Row 2</div><br>
+  <div class="row-lg-5 bg-dark d-flex justify-content-center mb-2 p-3 text-white">Row 3</div><br>
+  <div class="row-lg-5 bg-danger d-flex justify-content-center mb-2 p-3 text-white">Row 4</div><br>
+  </div> 
+  
+  <style>
+  @media (max-width:767px)
+  {
+  body
+  {
+  background: rgb(255, 230, 230);
+  }
+  }
+  </style>
+  
+  <br><br>
+  
+  <nav class="navbar navbar-light bg-light navbar-expand-sm">
+  <div class="container">
+  <h1 class="navbar-brand">Navbars</h1>
+  
+  <button class="navbar-toggler navbar-toggler-bs-right " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> <span class="navbar-toggler-icon"> </span></button>
+  
+  <div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav ms-auto">
+  
+  <li class="nav-item">
+  <a href="#" class="nav-link"> Home </a>
+  </li>
+  
+  <li class="nav-item">
+  <a href="#" class="nav-link"> Service </a>
+  </li>
+  
+  <li class="nav-item">
+  <a href="#" class="nav-link"> Contact </a>
+  </li>
+  
+  <li class="nav-item">
+  <a href="#" class="nav-link"> About </a>
+  </li>
+  
+  </ul>
+  
+ 
+  <div class="input-group">
+  <input class="form-control" type="text" placeholder="Search">
+  <span class="input-group-prepend"> 
+  <input class="btn btn-success" type="submit" value="Search">
+  </span>
+  </div>
+  
+  
+  
+  
+  </div>
+  
+  </div>
+  </nav>
+  <br>
+  <br>
+  
+  <ul class="list-group">
+  <li class="list-group-item list-group-item-action list-group-item-primary mb-1">Sunday  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="badge bg-primary"> - Day 1 </span></li>
+  <li class="list-group-item list-group-item-action list-group-item-success mb-1">Monday  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="badge bg-success">  - Day 2 </span></li>
+  <li class="list-group-item list-group-item-action list-group-item-danger mb-1">Tuesday  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="badge bg-danger"> - Day 3 </span></li>
+  <li class="list-group-item list-group-item-action list-group-item-dark mb-1">Wednesday  &nbsp;<span class="badge bg-dark"> - Day 4 </span></li>
+  <li class="list-group-item list-group-item-action list-group-item-info mb-1">Thursday   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="badge bg-info"> - Day 5 </span></li>
+  <li class="list-group-item list-group-item-action list-group-item-warning mb-1">Friday  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="badge bg-warning"> - Day 6 </span></li>
+  <li class="list-group-item list-group-item-action list-group-item-danger mb-1">Saturday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="badge bg-danger"> - Day 7 </span></li>
+  </ul>
+  
+  <br>
+  <br>
+  
+  <ol class="breadcrumb">
+  <li class="breadcrumb-item"> Home </li>
+  <li class="breadcrumb-item"> About </li>
+  <li class="breadcrumb-item active"> Contact </li>
+  </ol>
+  
+  <br><br>
+  
+  <!-- <form class="form-inline"> -->
+  <div class="mb-3 row">
+  <label class="col-sm-2 col-form-label "> Name: </label>
+  <div class="col-sm-10">
+  <input class="form-control col-sm-2 is-valid" type="text">
+  <div class="valid-feedback">Available</div>
+  </div>
+  </div>
+  
+  <div class="mb-3 row">
+   <label class="col-sm-2 col-form-label">Password:</label>
+   <div class="col-sm-10">
+   <input class="form-control col-sm-2 is-invalid" type="password" >
+   <div class="invalid-feedback">Not Available</div>
+   </div>
+  </div>
+  
+  <div class="mb-3 row">
+  <label class="mb-1">Gender: </label>
+  <select class="form-control col-sm-2">
+  <option>Male</option>
+  <option>Female</option>
+  </select>
+  </div>
+  
+  <!-- <form class="form-inline"> -->
+  <div class="input-group">
+  <div class="input-group-prepend">
+  <span class="input-group-text">@</span>
+  </div>
+  
+  <input class="form-control" type="text">
+  </div>
+  
+  <br>
+  <br>
+  <!-- </form> -->
+  
+  <div class="alert alert-success alert-dismissible fade show">
+  <strong> Success </strong> is calling 
+  <a class="alert-link" href="#">Check it out </a>
+  <button type="button" class="btn-close" data-bs-dismiss="alert">
+  </button>
+  </div>
+  
+  <div class="progress" style="height: 5% ">
+  <div class="bg-success progress-bar progress-bar-striped progress-bar-animated" style="width: 80%">
+  Success
+  </div>
+  </div>
+  
+  <br><br>
+  
+  <table class="table table-dark">
+  <th>Name</th>
+  <th>ID</th>
+  <th>DOB</th>
+  
+  <tr class="table-primary"><td>Zubair</td>
+  <td>19-39745-1</td>
+  <td>21-8-2000</td></tr>
+  
+  <tr class="table-info"><td>Saad</td>
+  <td>17-39312-1</td>
+  <td>24-4-2000</td></tr>
+  
+  <tr class="table-danger"><td>Asif</td>
+  <td>18-49342-2</td>
+  <td>27-4-1999</td></tr>
+  </table>
+  
+  
+  <br><br>
+   <table class="table table-sm table-striped table-bordered table-hover">
+  <th>Name</th>
+  <th>ID</th>
+  <th>DOB</th>
+  
+  <tr ><td>Zubair</td>
+  <td>19-39745-1</td>
+  <td>21-8-2000</td></tr>
+  
+  <tr ><td>Saad</td>
+  <td>17-39312-1</td>
+  <td>24-4-2000</td></tr>
+  
+  <tr ><td>Asif</td>
+  <td>18-49342-2</td>
+  <td>27-4-1999</td></tr>
+  </table>
+  
+  <br><br>
+  
+  <ul class="pagination justify-content-center">
+  <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+  <li class="page-item"><a class="page-link" href="#">1</a></li>
+  <li class="page-item"><a class="page-link" href="#">2</a></li>
+  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+  <br><br>
+ 
+ 
+  <div class="card border-danger" style="width:90%;"><!-- text-center -->
+  <div class="card-header">
+  <ul class="nav nav-tabs card-header-tabs">
+  <li class="nav-item"> <a class="nav-link active" href="#"> Home </a></li>
+  <li class="nav-item"> <a class="nav-link" href="#"> About </a></li>
+  <li class="nav-item "> <a class="nav-link" href="#"> Contact </a></li>
+  </ul>
+  </div>
+  
+  <div class="card-body">
+  <header class="card-title">Card Title</header>
+  <p class="card-text">Hello everyone! How are you?</p>
+  <a class="btn btn-info d-grid" href="#"> Read more </a>
+  </div>
+  <div class="card-footer text-muted bg-light">2 days ago</div>
+  </div>
+  
+  <br><br>
+  
+  <div class="card">
+  <img style="height: 100%; width: 50%;"src="IMG_0378.JPG">
+  <div class="card-img-overlay text-light">
+  <p>Work Hard in Silence, let your Success be your noise.</p>
+  </div>
+  </div>
+  
+  <br><br>
+  
+  <div class="card-group">
+  <div class="card" style="width:90%;">
+  <div class="card-body">
+  <head> Card 1 </head>
+  <p>Work Hard in Silence, let your Success be your noise.</p>
+  </div>
+  </div>
+  
+  <div class="card" style="width:90%;">
+  <div class="card-body">
+  <head> Card 2 </head>
+  <p>Work Hard in Silence, let your Success be your noise.</p>
+  </div>
+  </div>
+  
+  <div class="card" style="width:90%;">
+  <div class="card-body">
+  <head> Card 3 </head>
+  <p>Work Hard in Silence, let your Success be your noise.</p>
+  </div>
+  </div>
+  </div>
+  
+  <br><br>
+  
+  <div class="card-deck">
+  <div class="card" style="width:90%;">
+  <div class="card-body">
+  <head> Card 1 </head>
+  <p>Work Hard in Silence, let your Success be your noise.</p>
+  </div>
+  </div>
+  
+  <div class="card" style="width:90%;">
+  <div class="card-body">
+  <head> Card 2 </head>
+  <p>Work Hard in Silence, let your Success be your noise.</p>
+  </div>
+  </div>
+  
+  <div class="card" style="width:90%;">
+  <div class="card-body">
+  <head> Card 3 </head>
+  <p>Work Hard in Silence, let your Success be your noise.</p>
+  </div>
+  </div>
+  </div>
+  
+  <br><br><br>
+  
+  <div class="card-columns ">
+  <div class="card border-danger" style="width:90%;">
+  <div class="card-body">
+  <head> Card 1 </head>
+  <p>Work Hard in Silence, let your Success be your noise.</p>
+  </div>
+  </div>
+  
+  <div class="card border-danger" style="width:90%;">
+  <div class="card-body">
+  <head> Card 2 </head>
+  <p>Work Hard in Silence, let your Success be your noise.</p>
+  </div>
+  </div>
+  
+  <div class="card border-danger" style="width:90%;">
+  <div class="card-body">
+  <head> Card 3 </head>
+  <p>Work Hard in Silence, let your Success be your noise.</p>
+  </div>
+  </div>
+  
+  <div class="card border-danger" style="width:90%;">
+  <div class="card-body">
+  <head> Card 4 </head>
+  <p>Work Hard in Silence, let your Success be your noise.</p>
+  </div>
+  </div>
+  
+  <div class="card border-danger" style="width:90%;">
+  <div class="card-body">
+  <head> Card 5 </head>
+  <p>Work Hard in Silence, let your Success be your noise.</p>
+  </div>
+  </div>
+  
+  <div class="card border-danger" style="width:90%;">
+  <div class="card-body">
+  <head> Card 6 </head>
+  <p>Work Hard in Silence, let your Success be your noise.</p>
+  </div>
+  </div>
+  </div>
+  
+  <br><br>
+  
+  <div class="row">
+  <div class="col-12 col-sm-9">
+  <h2>Zubair Ahmed</h2>
+  <p>Specific ranges are also reserved for particular organizations or providers. For
+	example, many of the computers at Harvard will be assigned an IP address that
+	starts with 140.247.#.# or 128.103.#.#, with MIT down the street having its own
+	range as well. Providers like Comcast also has a particular prefix that they own. 
+  </p>
+  </div>
+  
+  <div class="col-12 col-sm-3">
+  <h2>Zubair Ahmed</h2>
+  <p>Specific ranges are also reserved for particular organizations or providers. For
+	example, many of the computers at Harvard will be assigned an IP address that
+	starts with 140.247.#.# or 128.103.#.#, with MIT down the street having its own
+	range as well. Providers like Comcast also has a particular prefix that they own. 
+  </p>
+  </div>
+  </div>
+  
+ 
+  <div class="card">
+  <div class="card-body">
+  <div class="row">
+  <div class="col-3">
+  <div class="card">
+  <div class="card-body">
+  <h3>Zubair Ahmed</h3>
+  <p>Specific ranges are also reserved for particular organizations or providers. For
+	example, many of the computers at Harvard will be assigned an IP address that
+	starts with 140.247.#.# or 128.103.#.#, with MIT down the street having its own
+	range as well. Providers like Comcast also has a particular prefix that they own. 
+  </p>
+  </div>
+  </div>
+  </div>
+  
+  <div class="col-6">
+  <div class="card">
+  <div class="card-body">
+  <h3>Zubair Ahmed</h3>
+  <p>Specific ranges are also reserved for particular organizations or providers. For
+	example, many of the computers at Harvard will be assigned an IP address that
+	starts with 140.247.#.# or 128.103.#.#, with MIT down the street having its own
+	range as well. Providers like Comcast also has a particular prefix that they own. 
+  </p>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+  <div class="row mt-4">
+  <div class="col-3 offset-0">
+  <h2>Zubair Ahmed</h2>
+  <p>Specific ranges are also reserved for particular organizations or providers. For
+	example, many of the computers at Harvard will be assigned an IP address that
+	starts with 140.247.#.# or 128.103.#.#, with MIT down the street having its own
+	range as well. Providers like Comcast also has a particular prefix that they own. 
+  </p>
+  </div>
+  
+  <div class="col-3 offset-6">
+  <h2>Zubair Ahmed</h2>
+  <p>Specific ranges are also reserved for particular organizations or providers. For
+	example, many of the computers at Harvard will be assigned an IP address that
+	starts with 140.247.#.# or 128.103.#.#, with MIT down the street having its own
+	range as well. Providers like Comcast also has a particular prefix that they own. 
+  </p>
+  </div>
+  </div>
+  
+  <div class="row mt-4">
+  <div class="col order-4">
+  <h2>Zubair Ahmed 1</h2>
+  <p>Specific ranges are also reserved for particular organizations or providers. For
+	example, many of the computers at Harvard will be assigned an IP address that
+	starts with 140.247.#.# or 128.103.#.#, with MIT down the street having its own
+	range as well. Providers like Comcast also has a particular prefix that they own. 
+  </p>
+  </div>
+  
+  <div class="col order-1">
+  <h2>Zubair Ahmed 2</h2>
+  <p>Specific ranges are also reserved for particular organizations or providers. For
+	example, many of the computers at Harvard will be assigned an IP address that
+	starts with 140.247.#.# or 128.103.#.#, with MIT down the street having its own
+	range as well. Providers like Comcast also has a particular prefix that they own. 
+  </p>
+  </div>
+  
+  <div class="col order-3">
+  <h2>Zubair Ahmed 3</h2>
+  <p>Specific ranges are also reserved for particular organizations or providers. For
+	example, many of the computers at Harvard will be assigned an IP address that
+	starts with 140.247.#.# or 128.103.#.#, with MIT down the street having its own
+	range as well. Providers like Comcast also has a particular prefix that they own. 
+  </p>
+  </div>
+  
+  <div class="col order-2">
+  <h2>Zubair Ahmed 4</h2>
+  <p>Specific ranges are also reserved for particular organizations or providers. For
+	example, many of the computers at Harvard will be assigned an IP address that
+	starts with 140.247.#.# or 128.103.#.#, with MIT down the street having its own
+	range as well. Providers like Comcast also has a particular prefix that they own. 
+  </p>
+  </div>
+  </div>
+  
+  <div class="row " style="height:200px;border:1px solid; margin-bottom:10px; margin-top:10px;">
+  <!-- align-items-center -->
+  <div class="col align-self-start"> Middle</div>
+  <div class="col align-self-center"> Middle</div>
+  <div class="col align-self-center"> Middle</div>
+  <div class="col align-self-end"> Middle</div>
+  </div>
+  
+  <div class="row justify-content-around " style="height:200px;border:1px solid; margin-bottom:10px; margin-top:10px;">
+  <!-- align-items-center -->
+  <div class="col"> Around</div>
+  <div class="col"> Around</div>
+ 
+  </div>
+  
+  <div class="card">
+  <div class="card-body">
+  <div class="row no-gutters">
+  <div class="col-3">
+  <div class="card">
+  <div class="card-body">
+  <h3>Zubair Ahmed</h3>
+  <p>Specific ranges are also reserved for particular organizations or providers. For
+	example, many of the computers at Harvard will be assigned an IP address that
+	starts with 140.247.#.# or 128.103.#.#, with MIT down the street having its own
+	range as well. Providers like Comcast also has a particular prefix that they own. 
+  </p>
+  </div>
+  </div>
+  </div>
+  
+  <div class="col-6">
+  <div class="card">
+  <div class="card-body">
+  <h3>Zubair Ahmed</h3>
+  <p>Specific ranges are also reserved for particular organizations or providers. For
+	example, many of the computers at Harvard will be assigned an IP address that
+	starts with 140.247.#.# or 128.103.#.#, with MIT down the street having its own
+	range as well. Providers like Comcast also has a particular prefix that they own. 
+  </p>
+  </div>
+  </div>
+  </div>
+  
+  <div class="col-2">
+  <div class="card">
+  <div class="card-body">
+  <h3>Zubair Ahmed</h3>
+  <p>Specific ranges are also reserved for particular organizations or providers. For
+	example, many of the computers at Harvard will be assigned an IP address that
+	starts with 140.247.#.# or 128.103.#.#, with MIT down the street having its own
+	range as well. Providers like Comcast also has a particular prefix that they own. 
+  </p>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+  <style>
+  
+  .row-h1{
+  border: 1px solid black;
+  height: 200px;
+  background: grey;
+  }
+ 
+  .item-h1
+  {
+  border: 1px solid black;
+  height: 100px;
+  width: 200px;
+  background: white;
+  }
+  </style>
+  
+  
+  <div class="d-flex row-h1 flex-row  justify-content-between ">
+  <div class="p-4 item-h1 align-self-start">Item 1</div>
+  <div class="p-4 item-h1 align-self-center">Item 2</div>
+  <div class="p-4 item-h1 align-self-end">Item 3</div>
+  </div>
+  <br>
+  <div class="d-flex row-h1 flex-wrap justify-content-center">
+  <div class="p-4 item-h1">Item 1</div>
+  <div class="p-4 item-h1">Item 2</div>
+  <div class="p-4 item-h1">Item 3</div>
+  <div class="p-4 item-h1">Item 1</div>
+  <div class="p-4 item-h1">Item 2</div>
+  <div class="p-4 item-h1">Item 3</div>
+  <div class="p-4 item-h1">Item 1</div>
+  <div class="p-4 item-h1">Item 2</div>
+  <div class="p-4 item-h1">Item 3</div>
+  <div class="p-4 item-h1">Item 1</div>
+  
+  </div>
+  
+  <br><br><br><br><br><br>
+	
+</div>
+
+</html>
