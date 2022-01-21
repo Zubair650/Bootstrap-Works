@@ -95,8 +95,13 @@ integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amn
   
   <div ><!-- class="bg-info clearfix" -->
   <button class="btn btn-outline-danger"> Button 1 </button>
-  <button class="btn btn-outline-dark btn-toggle" data-bs-toggle="button"> Button 2 </button>
-  <button class="btn btn-outline-danger btn-lg"><i class="fas fa-bolt"></i> Danger </button> <br><br>
+  
+  
+  <button class="btn btn-outline-danger btn-lg" data-html="true" data-placement="top" 
+  data-toggle="tooltip" title="<h6>Danger</h6>"><i class="fas fa-bolt"></i> Danger </button>
+
+
+  <br><br>
   </div>
   <div class="btn-group"><!-- dropdown -->
   <button class="btn btn-outline-dark"><i class="fab fa-canadian-maple-leaf"></i> Welcome to Canada </button>
@@ -704,10 +709,52 @@ integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amn
   <span class="carousel-control-next-icon"></span></a>
   </div>
   </div>
+  <br><br><br>
+  <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" 
+  data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+  
+  <br><br>
+  
+  <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#myModal">
+  Login
+  </button>
+  
+  <div class="modal" id="myModal">
+  <div class="modal-dialog modal-lg">
+  <div class="modal-content">
+  <div class="modal-header">
+  <h5 class="modal-title"> Modal Header </h5>
+  <button class="close" data-dismiss="modal">&times;</button>
+  </div>
+  
+  <div class="modal-body">
+  
+  <label class="form-label "> Name: </label>
+  <input class="form-control " type="text">
+  
+  <label class="form-label">Password:</label>
+  <input class="form-control " type="password" >
+   
+  </div>
+  <div class="modal-footer">
+  <button class="btn btn-success" data-dismiss="modal">Login</button>
+  </div>
+  </div>
+  </div>
+  </div>
   
   <script>
   $('.carousel').carousel({ interval:3000 });
+  $('[data-toggle = "tooltip"]').tooltip();
+  
   </script>
+  
+  <script>
+  $('[data-toggle = "popover"]').popover();
+  </script>
+  
+  <br><br><br>
+  
   
   <br><br><br><br><br><br>
 	
